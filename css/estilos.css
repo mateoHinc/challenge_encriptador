@@ -42,6 +42,10 @@ body {
     margin: 0 auto;
 }
 
+.alert-actived {
+    color:red;
+}
+
 .text-desencriptar {
     width: 100%;
     height: 100%;
@@ -52,6 +56,10 @@ body {
     outline: none;
     box-shadow: 0 24px 32px -8px rgba(154,154,154,0.2);
     overflow-wrap: break-word;
+}
+
+.text-desencriptar-alert{
+    border: 2px solid red;
 }
 
 .text-desencriptar, .text-desencriptar:focus {
@@ -236,6 +244,9 @@ body {
     .container-resultado {
         width: 100%;
         height: 30vh;
+    }
+    .container-img {
+        display: none;
     }
 }
 
